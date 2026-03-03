@@ -1,0 +1,24 @@
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+compile_commands.json
+generated
+# CLion / IDE
+.idea/
+
+# CMake
+cmake-build-*/
+build/
+
+# Compiled files
+*.o
+*.exe
+*.out
+
+# Qt
+moc_*
+qrc_*
+ui_*

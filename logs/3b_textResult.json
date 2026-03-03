@@ -1,0 +1,222 @@
+{
+  "tests": 15,
+  "failures": 1,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2025-04-03T20:59:25Z",
+  "time": "0.003s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "BulletTester",
+      "tests": 2,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2025-04-03T20:59:25Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "shootIsObject",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/bulletTests.cpp",
+          "line": 16,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "BulletTester"
+        },
+        {
+          "name": "shootHasDirectionAndPosition",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/bulletTests.cpp",
+          "line": 30,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "BulletTester"
+        }
+      ]
+    },
+    {
+      "name": "EnemyTester",
+      "tests": 1,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2025-04-03T20:59:25Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "enemyHasLimitedLife",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/enemyTests.cpp",
+          "line": 16,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "EnemyTester"
+        }
+      ]
+    },
+    {
+      "name": "EngineTester",
+      "tests": 5,
+      "failures": 1,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2025-04-03T20:59:25Z",
+      "time": "0.001s",
+      "testsuite": [
+        {
+          "name": "engineConstructedWithWidthAndHeight",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/engineTests.cpp",
+          "line": 26,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "EngineTester"
+        },
+        {
+          "name": "engineHasGettersToGetInformationAboutPlayer",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/engineTests.cpp",
+          "line": 38,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "EngineTester"
+        },
+        {
+          "name": "engineCanMovePlayer",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/engineTests.cpp",
+          "line": 55,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "EngineTester"
+        },
+        {
+          "name": "engineHandlePlayerShooting",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/engineTests.cpp",
+          "line": 78,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "EngineTester"
+        },
+        {
+          "name": "engineHandlesEnemies",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/engineTests.cpp",
+          "line": 111,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "EngineTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/engineTests.cpp:114\nFailed\nNot implemented: UNIMPLEMENTED_engineHandlesEnemies\n",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ObjectTester",
+      "tests": 3,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2025-04-03T20:59:25Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructorWithTwoArguments",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/objectTests.cpp",
+          "line": 15,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "ObjectTester"
+        },
+        {
+          "name": "setPosition",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/objectTests.cpp",
+          "line": 31,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "ObjectTester"
+        },
+        {
+          "name": "movingObject",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/objectTests.cpp",
+          "line": 51,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "ObjectTester"
+        }
+      ]
+    },
+    {
+      "name": "PlayerTester",
+      "tests": 4,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2025-04-03T20:59:25Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "playerIsObject",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/playerTests.cpp",
+          "line": 16,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "PlayerTester"
+        },
+        {
+          "name": "playerCanMoveLikeObject",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/playerTests.cpp",
+          "line": 31,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "PlayerTester"
+        },
+        {
+          "name": "playerHasDirection",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/playerTests.cpp",
+          "line": 49,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "PlayerTester"
+        },
+        {
+          "name": "playerCanDie",
+          "file": "\/tmp\/tmpx8eprt51\/student\/unit_tests\/playerTests.cpp",
+          "line": 66,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-03T20:59:25Z",
+          "time": "0s",
+          "classname": "PlayerTester"
+        }
+      ]
+    }
+  ]
+}

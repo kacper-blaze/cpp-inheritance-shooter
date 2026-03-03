@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for __asan_init in asan
+-- Looking for __asan_init in asan - found
+-- Looking for __ubsan_handle_add_overflow in ubsan
+-- Looking for __ubsan_handle_add_overflow in ubsan - found
+-- Sanitizers (AddressSanitizer + UndefinedBehaviorSanitizer) są dostępne
+Katalog do zbudowanego projektu: /tmp/tmpx8eprt51/student/build
+ + Znaleziono nagłówki: /tmp/tmpx8eprt51/student/bullet.h;/tmp/tmpx8eprt51/student/direction.h;/tmp/tmpx8eprt51/student/enemy.h;/tmp/tmpx8eprt51/student/engine.h;/tmp/tmpx8eprt51/student/object.h;/tmp/tmpx8eprt51/student/player.h;/tmp/tmpx8eprt51/student/position.h;/tmp/tmpx8eprt51/student/stage.h
+ + Znaleziono źródła: /tmp/tmpx8eprt51/student/enemy.cpp;/tmp/tmpx8eprt51/student/engine.cpp;/tmp/tmpx8eprt51/student/main.cpp;/tmp/tmpx8eprt51/student/object.cpp;/tmp/tmpx8eprt51/student/stage.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmpx8eprt51/student/enemy.cpp;/tmp/tmpx8eprt51/student/engine.cpp;/tmp/tmpx8eprt51/student/object.cpp;/tmp/tmpx8eprt51/student/stage.cpp
+	* valgrind found: /usr/bin/valgrind
+	* cppcheck found: /usr/local/bin/cppcheck
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+ + Znaleziono pliki testów: /tmp/tmpx8eprt51/student/unit_tests/bulletTests.cpp;/tmp/tmpx8eprt51/student/unit_tests/enemyTests.cpp;/tmp/tmpx8eprt51/student/unit_tests/engineTests.cpp;/tmp/tmpx8eprt51/student/unit_tests/objectTests.cpp;/tmp/tmpx8eprt51/student/unit_tests/playerTests.cpp
+ + katalog nagłówków: 
+-- Could NOT find QT (missing: QT_DIR)
+CMake Warning (dev) at game/CMakeLists.txt:12 (find_package):
+  Policy CMP0084 is not set: The FindQt module does not exist for
+  find_package().  Run "cmake --help-policy CMP0084" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find Qt3 (missing: QT_QT_LIBRARY QT_INCLUDE_DIR QT_MOC_EXECUTABLE) 
+CMake was unable to find desired Qt version: 3. Set advanced values QT_QMAKE_EXECUTABLE and QT3_QGLOBAL_H_FILE.
+QT not found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmpx8eprt51/student/build
